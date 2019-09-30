@@ -1,0 +1,1 @@
+/Users/mgalaviz/projects/proof/packages/docs/src/plugins/add-all.md
