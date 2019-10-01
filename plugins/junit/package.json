@@ -4,7 +4,9 @@
   "main": "dist/main.js",
   "license": "MIT",
   "scripts": {
-    "build": "tsc",
+    "build-tsc": "tsc",
+    "build-copy-readme": "cp ../../packages/docs/src/plugins/junit.md ./README.md",
+    "build": "npm run build-tsc && npm run build-copy-readme",
     "build:watch": "tsc --watch"
   },
   "dependencies": {
